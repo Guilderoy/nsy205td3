@@ -1,0 +1,19 @@
+h1{
+    margin: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #08258c12;
+}
+label{
+	font-weight: bold;
+}
+
+.mysubmit{
+	padding:15px;
+}
+
+.container{
+	background-color: #08258c42;
+	padding: 50px;
+	border-radius: 20px;
+}/* You can add global styles to this file, and also import other style files */

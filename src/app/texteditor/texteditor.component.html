@@ -1,0 +1,14 @@
+<h1>Mon Editeur de texte</h1>
+<div class="container">
+	<div class="col-lg-6">
+		<form ng-controller="SubmitController">
+			<div class="form-group">
+			<label for="text">Texte à éditer:</label>
+				<textarea class="form-control" ng-model="mytext" id="mytext" name="text" rows="20" cols="100" #text>{{content}}</textarea>
+			</div>
+			<div class="mysubmit">
+				    <input class="btn btn-primary" (click)="submitText(text)" value="Mettre à jour">
+			</div>
+		</form>
+	</div>
+</div>
